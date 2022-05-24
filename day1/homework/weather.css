@@ -1,0 +1,50 @@
+*, *::after, *::before{
+    margin: 20;
+    padding: 20;
+    box-sizing: inherit;
+}
+.box{
+    border: 1px solid #eee;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+}
+.high{
+    background-color: red;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color:white;
+}
+
+.low{
+    background-color: blue;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color:white;
+}
+.forcast{
+    background-color: seagreen;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color:white;
+}
+.humidity{
+    background-color: green;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color:white;
+}
+.box p{
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 30%;
+    font-size: 40px;
+}
+form{
+    width: 280px;
+
+}
+#search{
+    width: 280px;
+}
